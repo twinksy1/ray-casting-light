@@ -8,8 +8,8 @@ const int NUMSEGS = 10;
 class Global {
 	public:
 	Window w;
-	int xres = 3000;
-	int yres = 2000;
+	int xres = 800;
+	int yres = 800;
 	Ray r[NUMRAYS];
 	LineSegment l[NUMSEGS];
 	Global()
